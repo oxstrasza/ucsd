@@ -44,8 +44,23 @@ div{
 a:hover {
 	font-weight: bold;
 }
-
+.navigater{
+	position: fixed;
+	margin-top: 1px;
+	width: 4%;
+	background-color: #B9D7D9;
+	margin-bottom: 1px;
+	margin-right: 1px;
+	padding: 1px;
+}
+table{
+	font-size:small;
+}
 .content{
+	float: right;
+	margin-top: 1px;
+	margin-left: 1px;
+	width: 95%;
 	background-color: #F4EBC3;
 	padding: 1px;
 }
@@ -56,12 +71,15 @@ img{
 h1{
 	font-size: xx-large;
 	font-family: cursive;
-	color:red;
+	color: red;
 }
-h3{
+#classChoice{
+	text-align: center;
+}
+#className{
 	background-color: gray;
 	font-family: cursive;
 	font-size: x-large;
-	color:blue;
+	color:white;
 	text-align: center;
 }
