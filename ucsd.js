@@ -1,3 +1,1 @@
-var main = function(){
-	
-}
+$(document).read();
