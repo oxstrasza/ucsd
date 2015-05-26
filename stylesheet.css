@@ -40,30 +40,22 @@ div{
 #footer p a{
 		color:blue;
 }
-a:hover {
-	font-weight: bold;
-}
-*{
-	text-decoration: none;
-}
 
-.navigater{
-	position: fixed;
-	margin-top: 1px;
-	width: 4%;
-	background-color: #B9D7D9;
-	margin-bottom: 1px;
-	margin-right: 1px;
-	padding: 1px;
+table a{
+	text-decoration: none;
+	color:white;
+	font-size:xx-large;
+	table-layout: auto;
 }
-table{
-	font-size:small;
+table td{
+	background-color:rgba(190, 186, 186, 0.94);
+	
 }
 .content{
 	float: right;
 	margin-top: 1px;
 	margin-left: 1px;
-	width: 95%;
+	width: 100%;
 	background-color: #F4EBC3;
 	padding: 1px;
 }
@@ -74,15 +66,5 @@ img{
 h1{
 	font-size: xx-large;
 	font-family: cursive;
-	color: red;
-}
-#classChoice{
-	text-align: center;
-}
-#className{
-	background-color: gray;
-	font-family: cursive;
-	font-size: x-large;
-	color:white;
-	text-align: center;
+	color: orange;
 }
