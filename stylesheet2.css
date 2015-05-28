@@ -16,7 +16,9 @@ a:link{
 #header div{
 	display: inline-block;
 }
-
+li{
+	list-style-type: none;	
+}
 #footer{
 	background-color: #F4EBC3;
 	clear: both;
