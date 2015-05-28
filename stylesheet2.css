@@ -1,9 +1,6 @@
 a:link{
 	text-decoration: none;
 }
-div{
-	border-radius: 5px;	
-}
 #header{
 	background-color: rgb(24,109,150);
 	text-align: center;
@@ -19,40 +16,49 @@ div{
 #header div{
 	display: inline-block;
 }
-#triton{
-	float: left;
-}
-#sungod{
-	float: right;
-}
-#header div img{
-	height:150px;
-	width: 100px;
-}
+
 #footer{
-	background-color: #668284;
+	background-color: #F4EBC3;
 	clear: both;
 	text-align: right;
 }
 #footer p{
-	color: white;
 	font-family: serif;
 	font-size: large;
 	padding-bottom: 5px;
 }
-#footer a:hover{
+#footer  a:hover{
+	color: red;
 	text-decoration: underline;
+}
+#return{
+	float: left;
+}
+#feedback{
+	float: right;
+}
+.classlink{
+	font-size: large;
+}
+.classlink a:link{ 
+	color:rgb(1,102,145);
+}
+.classlink a:hover{
+	text-decoration: underline;
+}
+table{
+	clear: left;
 }
 table a{
 	text-decoration: none;
 	color:white;
-	font-size:xx-large;
+	font-size:x-large;
 	table-layout: inherit;
 	font-family: serif;
 	
 }
 table td{
-	background-color:rgba(190, 186, 186, 0.94);
+	background-color:rgb(24,109,150);
 	text-align: center;	
 	vertical-align: middle;
 }
@@ -64,8 +70,11 @@ table td{
 	background-color: #F4EBC3;
 	padding: 1px;
 }
-h1{
-	font-size: xx-large;
-	font-family: cursive;
+h2{
+	float: left;
+	font-size: x-large;
 	color: orange;
+}
+#sub{
+	float: left;
 }
