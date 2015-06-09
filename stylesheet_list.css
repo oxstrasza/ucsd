@@ -19,17 +19,12 @@ a:link{
 li{
 	list-style-type: none;	
 }
-#footer{
-	background-color: #F4EBC3;
-	clear: both;
-	text-align: right;
-}
 #footer p{
 	font-family: serif;
 	font-size: large;
 	padding-bottom: 5px;
 }
-#footer  a:hover{
+#footer a:hover{
 	color: red;
 	text-decoration: underline;
 }
@@ -40,6 +35,7 @@ li{
 	float: right;
 }
 .classlink{
+	font-family: Helvetica;
 	font-size: large;
 }
 .classlink a:link{ 
@@ -56,7 +52,7 @@ table a{
 	color:white;
 	font-size:x-large;
 	table-layout: inherit;
-	font-family: serif;
+	font-family: Helvetica;
 	
 }
 table td{
@@ -76,7 +72,4 @@ h2{
 	float: left;
 	font-size: x-large;
 	color: orange;
-}
-#sub{
-	float: left;
 }
